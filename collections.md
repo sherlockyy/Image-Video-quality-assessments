@@ -9,9 +9,9 @@
 	- [SpEED-QA](#speedqa), [ViS3](#vis3), [MoViE](#movie), [VMAF](#vmaf)
 - [Video no-reference algorithm](#video-noreference)
 	- [VIIDEO](#viideo), [V-BLINDS](#vblinds)
-- [Image database](#imgdatabase)
+- [Image database](#imagedatabase)
 	- [LIVE Image Quality Assessment Database](#liveimage), [CID2013](#cid2013)
-- [Video database](#viddatabase)
+- [Video database](#videodatabase)
 	- [LIVE Video Quality Database](#livevideo), [LIVE Mobile Video Quality Database](#livemobilev), [LIVE-Qualcomm Mobile In-Capture Video Quality Database](#livequalcomm), [CVD2014](#cvd2014), [KoNViD-1k](#konvid), [YouTube UGC Dataset](#youtubeugc)
 
 ___
