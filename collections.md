@@ -2,9 +2,9 @@
 
 ## Table of Contents:
 - [Image reference-based algorithm](#image-reference)
-	- [SSIM](#ssim), [MS-SSIM](#ms-ssim), [VIF](#vif)
+	- [SSIM](#ssim), [MS-SSIM](#ms-ssim), [VIF](#vif), [GMSD](#gmsd)
 - [Image no-reference algorithm](#image-noreference)
-	- [NIQE](#niqe), [BRISQUE](#brisque)
+	- [NIQE](#niqe), [BRISQUE](#brisque), [OG-IQA](#ogiqa), [FRIQUEE](#friquee), [IL-NIQE](#ilniqe), [GM-LOG-BIQA](#gmlogbiqa)
 - [Video reference-based algorithm](#video-reference)
 	- [SpEED-QA](#speedqa), [ViS3](#vis3), [MoViE](#movie), [VMAF](#vmaf)
 - [Video no-reference algorithm](#video-noreference)
@@ -38,6 +38,11 @@ H.R. Sheikh.and A.C. Bovik, *["Image information and visual quality,"](https://i
 IEEE Transactions on Image Processing , vol.15, no.2,pp. 430- 444, Feb. 2006.  
 [*[code](http://live.ece.utexas.edu/research/Quality/index_algorithms.htm)*]
 
+<a name="gmsd"></a>
+### Gradient Magnitude Similarity Deviation (GMSD)
+W. Xue, L. Zhang, X. Mou and A.C. Bovik, “Gradient magnitude similarity deviation: A highly efficient perceptual image quality index,” IEEE Transactions on Image Processing, vol. 23, no. 2, pp. 684-695, February 2014.  
+[*[project](http://www4.comp.polyu.edu.hk/~cslzhang/IQA/GMSD/GMSD.htm)*]
+
 <a name="image-noreference"></a>
 ## Image no-reference algorithm
 
@@ -53,6 +58,26 @@ A. Mittal, A. K. Moorthy and A. C. Bovik, *[“No-Reference Image Quality Assess
 IEEE Transactions on Image Processing , 2012 (to appear).  
 A. Mittal, A. K. Moorthy and A. C. Bovik, “Referenceless Image Spatial Quality Evaluation Engine,” 
 45th Asilomar Conference on Signals, Systems and Computers , November 2011.  
+[*[code](http://live.ece.utexas.edu/research/Quality/index_algorithms.htm)*]
+
+<a name="ogiqa"></a>
+### Oriented Gradients Image Quality Assessment (OG-IQA)
+L. Liu, Y. Hua, Q. Zhao, H. Huang and A.C. Bovik, *["Blind image quality assessment by relative gradient statistics and Adaboosting neural network,"](https://www.sciencedirect.com/science/article/pii/S0923596515001708)* Signal Processing: Image Communication , vol. 40, no. 1, pp. 1-15, January, 2016.  
+[*[code](http://live.ece.utexas.edu/research/Quality/index_algorithms.htm)*]
+
+<a name="friquee"></a>
+### Feature maps based Referenceless Image QUality Evaluation Engine (FRIQUEE)
+D. Ghadiyaram and A. C. Bovik, "Perceptual Quality Prediction on Authentically Distorted Images Using a Bag of Features Approach," http://arxiv.org/abs/1609.04757  
+[*[code](http://live.ece.utexas.edu/research/Quality/index_algorithms.htm)*]
+
+<a name="ilniqe"></a>
+### IL-NIQE
+L. Zhang, L. Zhang and A.C. Bovik, *[“A feature-enriched completely blind local image quality analyzer,”](https://ieeexplore.ieee.org/abstract/document/7094273)* IEEE Transactions on Image Processing, vol. 24, no. 8, pp. 2579-2591, August 2015.  
+[*[project](http://www4.comp.polyu.edu.hk/~cslzhang/IQA/ILNIQE/ILNIQE.htm)*]
+
+<a name="gmlogbiqa"></a>
+### GM-LOG-BIQA
+W. Xue, X. Mou, L. Zhang, A.C. Bovik, and X. Feng, *[“Blind image quality prediction using joint statistics of gradient magnitude and laplacian features,”](https://ieeexplore.ieee.org/abstract/document/6894197)* IEEE Transactions on Image Processing, vol. 23, no. 11, pp. 4850-4862, November 2014.  
 [*[code](http://live.ece.utexas.edu/research/Quality/index_algorithms.htm)*]
 
 <a name="video-reference"></a>
